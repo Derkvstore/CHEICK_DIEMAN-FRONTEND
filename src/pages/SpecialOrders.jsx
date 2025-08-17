@@ -36,7 +36,7 @@ const MODELES = {
 const STOCKAGES = ["64 Go", "128 Go", "256 Go", "512 Go", "1 To"];
 
 const STATUS_DISPLAY_MAP = {
-  'en_attente': 'EN COURS',
+  'en_attente': 'ATTENTE',
   'commandé': 'COMMANDÉ',
   'reçu': 'REÇU',
   'vendu': 'VENDU',
