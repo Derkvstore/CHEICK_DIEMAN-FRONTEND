@@ -26,7 +26,7 @@ export default function Rapport() {
   const [searchTerm, setSearchTerm] = useState('');
    
   const backendUrl = import.meta.env.PROD
-    ?    'https://vanchoco-backend-production.up.railway.app'
+    ?   'cheickdieman-backend-production.up.railway.app'
     : 'http://localhost:3001';
 
   const getFormattedDate = () => {

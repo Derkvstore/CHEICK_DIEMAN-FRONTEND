@@ -30,8 +30,7 @@ export default function Accueil() {
   const [currentQuoteIndex, setCurrentQuoteIndex] = useState(0);
 
   const quotes = [
-    "VAN CHOCO 🌟, l'univers des mobiles authentiques. L'innovation à portée de main.",
-    "VAN CHOCO 🌐 : Le monde de la mobile authentique, à portée de clic."
+    "Evite les dettes aux Boubou Tigani 😅",
   ];
 
   const navigate = useNavigate();
@@ -47,7 +46,7 @@ export default function Accueil() {
     setIsNetworkError(false);
     try {
       const backendUrl = import.meta.env.PROD
-        ? 'https://vanchoco-backend-production.up.railway.app'
+        ? 'cheickdieman-backend-production.up.railway.app'
         : 'http://localhost:3001';
 
       const response = await fetch(`${backendUrl}/api/reports/dashboard-stats`);

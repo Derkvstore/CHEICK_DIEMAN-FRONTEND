@@ -23,7 +23,7 @@ export default function Dettes() {
   const [isProcessingPayment, setIsProcessingPayment] = useState(false);
 
   const backendUrl = import.meta.env.PROD
-    ? 'https://vanchoco-backend-production.up.railway.app'
+    ? 'cheickdieman-backend-production.up.railway.app'
     : 'http://localhost:3001';
 
   const formatCFA = (amount) => {

@@ -18,7 +18,7 @@ export default function NouvelleVente() {
 
   // ✅ LOGIQUE CORRIGÉE POUR GÉRER LOCAL ET PRODUCTION
   const backendUrl = import.meta.env.PROD
-    ?    'https://vanchoco-backend-production.up.railway.app'
+    ?   'cheickdieman-backend-production.up.railway.app'
 
     : 'http://localhost:3001';
 

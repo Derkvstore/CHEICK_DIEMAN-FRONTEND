@@ -35,7 +35,7 @@ export default function Clients() {
   const [onConfirmAction, setOnConfirmAction] = useState(null);
   
   const backendUrl = import.meta.env.PROD
-    ? 'https://vanchoco-backend-production.up.railway.app'
+    ? 'cheickdieman-backend-production.up.railway.app'
     : 'http://localhost:3001';
 
   const formatPhoneNumber = (num) => {

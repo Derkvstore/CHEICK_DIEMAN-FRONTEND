@@ -90,7 +90,7 @@ export default function SpecialOrders() {
   const [initialMontantPaye, setInitialMontantPaye] = useState('');
 
   const backendUrl = import.meta.env.PROD
-    ? 'https://vanchoco-backend-production.up.railway.app'
+    ? 'cheickdieman-backend-production.up.railway.app'
     : 'http://localhost:3001';
 
   const formatNumberWithSpaces = (number) => {
