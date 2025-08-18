@@ -46,7 +46,7 @@ export default function Accueil() {
     setIsNetworkError(false);
     try {
       const backendUrl = import.meta.env.PROD
-        ? 'cheickdieman-backend-production.up.railway.app'
+        ? 'https://cheickdieman-backend-production.up.railway.app'
         : 'http://localhost:3001';
 
       const response = await fetch(`${backendUrl}/api/reports/dashboard-stats`);

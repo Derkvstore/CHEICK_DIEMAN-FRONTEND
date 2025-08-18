@@ -90,7 +90,7 @@ export default function SpecialOrders() {
   const [initialMontantPaye, setInitialMontantPaye] = useState('');
 
   const backendUrl = import.meta.env.PROD
-    ? 'cheickdieman-backend-production.up.railway.app'
+    ? 'https://cheickdieman-backend-production.up.railway.app'
     : 'http://localhost:3001';
 
   const formatNumberWithSpaces = (number) => {
